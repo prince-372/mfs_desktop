@@ -1,0 +1,79 @@
+:root {
+    
+    /* font-size */
+    --fs-sm: 18px;
+    --fs-md: 22px;
+    --fs-lg: 16.5px;
+    --fs-xl: 22.16px;
+    --fs-xxl: 36.04px;
+
+/* color */
+    --light-white: #FAF9FD;
+    --dark-purple: #3B2E5D;
+    --grey: #E9E6E5;
+    --light-black: #2E2E2E;
+    --purple: #D59DFF;
+    --blue: #0067B8;
+    --light-purple:#8661c5;
+}
+
+/* font size */
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-md{
+    font-size: var(--fs-md);
+}
+.fs-lg{
+    font-size: var(--fs-lg);
+}
+.fs-xl{
+    font-size: var(--fs-xl);
+}
+.fs-xxl{
+    font-size: var(--fs-xxl);
+}
+/* color */
+.text-light-white{
+    color: var(--light-white);
+}
+.text-dark-purple{
+    color: var(--dark-purple);
+}
+.text-grey{
+    color: var(--grey);
+}
+.text-light-black{
+    color: var(--light-black);
+}
+.text-purple{
+    color: var(--purple);
+}
+.text-blue{
+    color: var(--blue);
+}
+.bg-grey{
+    background-color: var(--grey);
+}
+.bg-purple{
+    background-color: var(--purple);
+}
+.bg-light-white{
+    background-color: var(--light-white);
+}
+.bg-light-purple{
+    background-color: var(--light-purple);
+}
+
+
+@media (min-width:992px) {
+    :root {
+    
+        /* font-size */
+        --fs-sm: 18px;
+        --fs-md: 22px;
+        --fs-lg: 22.5px;
+        --fs-xl: 35.16px;
+        --fs-xxl: 76.04px;
+    }
+}
