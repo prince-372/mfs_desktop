@@ -72,17 +72,15 @@ touch.addEventListener("click", function () {
     cross5.classList.toggle("cross-2");
     cross6.classList.toggle("cross-3");
 });
-// backToTop
-let backToTop = document.getElementById('backtotop')
- backToTop.addEventListener("click", function () {
- window.scrollTo(0, 0)
-});
-window.addEventListener('scroll', function () {
+function backtop() {
+    window.scrollTo(0, 0);
+  }
+  
+  window.addEventListener("scrollTo", function () {
+    const mybackto = document.getElementById("backtops");
     if (window.scrollY > 500) {
-        backToTop.classList.remove('display_none');
-        backToTop.classList.add('display_block');
+      mybackto.style.display = "block";
     } else {
-        backToTop.classList.remove('display_block');
-        backToTop.classList.add('display_none');
+      mybackto.style.display = "none";
     }
-});
+  });

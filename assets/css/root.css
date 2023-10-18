@@ -1,11 +1,10 @@
-:root {
-    
+  :root {
     /* font-size */
-    --fs-sm: 18px;
-    --fs-md: 22px;
-    --fs-lg: 16.5px;
-    --fs-xl: 22.16px;
-    --fs-xxl: 36.04px;
+    --fs-sm: 12px;
+    --fs-md: 16px;
+    --fs-lg: 17px;
+    --fs-xl: 19.16px;
+    --fs-xxl: 32.04px;
 
 /* color */
     --light-white: #FAF9FD;
@@ -66,7 +65,7 @@
 }
 
 
-@media (min-width:992px) {
+@media (min-width:768px) {
     :root {
     
         /* font-size */
