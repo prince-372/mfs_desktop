@@ -12,7 +12,6 @@ let blog = document.querySelector(".blog");
 let contact = document.querySelector(".contact");
 let touch = document.querySelector(".touch");
 
-
 menuIcon.addEventListener("click", function () {
     if (a.classList !== document.querySelector("fix-lft")) {
         a.classList.toggle("fix-lft");
@@ -23,64 +22,15 @@ menuIcon.addEventListener("click", function () {
     }
 });
 
-home.addEventListener("click", function () {
-    a.classList.toggle("fix-lft");
-    flow.classList.remove("flow-hidden");
-    cross4.classList.toggle("cross-1");
-    cross5.classList.toggle("cross-2");
-    cross6.classList.toggle("cross-3");
-});
-solution.addEventListener("click", function () {
-    a.classList.remove("fix-lft");
-    flow.classList.remove("flow-hidden");
-    cross4.classList.toggle("cross-1");
-    cross5.classList.toggle("cross-2");
-    cross6.classList.toggle("cross-3");
-});
-cases.addEventListener("click", function () {
-    a.classList.remove("fix-lft");
-    flow.classList.remove("flow-hidden");
-    cross4.classList.toggle("cross-1");
-    cross5.classList.toggle("cross-2");
-    cross6.classList.toggle("cross-3");
-});
-about.addEventListener("click", function () {
-    a.classList.remove("fix-lft");
-    flow.classList.remove("flow-hidden");
-    cross4.classList.toggle("cross-1");
-    cross5.classList.toggle("cross-2");
-    cross6.classList.toggle("cross-3");
-});
-contact.addEventListener("click", function () {
-    a.classList.remove("fix-lft");
-    flow.classList.remove("flow-hidden");
-    cross4.classList.toggle("cross-1");
-    cross5.classList.toggle("cross-2");
-    cross6.classList.toggle("cross-3");
-});
-blog.addEventListener("click", function () {
-    a.classList.remove("fix-lft");
-    flow.classList.remove("flow-hidden");
-    cross4.classList.toggle("cross-1");
-    cross5.classList.toggle("cross-2");
-    cross6.classList.toggle("cross-3");
-});
-touch.addEventListener("click", function () {
-    a.classList.remove("fix-lft");
-    flow.classList.remove("flow-hidden");
-    cross4.classList.toggle("cross-1");
-    cross5.classList.toggle("cross-2");
-    cross6.classList.toggle("cross-3");
-});
 function backtop() {
     window.scrollTo(0, 0);
-  }
-  
-  window.addEventListener("scrollTo", function () {
+}
+
+window.addEventListener("scroll", function () {
     const mybackto = document.getElementById("backtops");
-    if (window.scrollY > 500) {
-      mybackto.style.display = "block";
+    if (document.documentElement.scrollTop > 500) {
+        mybackto.style.display = "block";
     } else {
-      mybackto.style.display = "none";
+        mybackto.style.display = "none";
     }
-  });
+});

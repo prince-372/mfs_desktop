@@ -29,8 +29,8 @@
   <!-- Meta Tags Generated with https://metatags.io -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="icon" href="./assets/image/Microsoft_logo.svg.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
     integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -38,30 +38,32 @@
     integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="bg-light-white sec-flow">
-     
-<!-- back-to-top -->
-<div>
-  <img src="./assets/image/backtotop.png" alt="backtotop" id="backtops"
+
+  <!-- back-to-top -->
+  <div>
+    <img src="./assets/image/backtotop.png" alt="backtotop" id="backtops"
       class="backto-top position-fixed bottom-0 end-0 m-4 z-5 " onclick="backtop()">
-</div>
-  <!-- priloder -->
-  <div class="loader_bg">
-    <div class="loader"><img src="./assets/image/priloder.gif" alt="priloder"></div>
   </div>
+  <!-- priloder -->
+  <!-- <div class="loader_bg">
+    <div class="loader"><img src="./assets/image/priloder.gif" alt="priloder"></div>
+  </div> -->
   <!-- header -->
   <header class="bg_gradient">
     <div class="container">
-      <nav class="py-4">
+      <nav class="py-4 d-flex justify-content-between align-items-center">
+        <div class="">
+        <img src="./assets/image/ms-logo.png" alt="ms-logo">
+      </div>
         <label id="menuIcon">
           <span class="cross-4"></span>
           <span class="cross-5"></span>
           <span class="cross-6"></span>
         </label>
-        <ul class="d-flex gap-5 justify-content-center nav-box" id="nav-bar">
+        <ul class="d-flex gap-5 nav-box justify-content-center align-items-center p-0 m-0" id="nav-bar">
           <li class="list-unstyled "><a href=""
               class="fs-sm fw-normal text-white ff-segoe p-0 m-0 position-relative f-line-design">Lorem Ipsum</a></li>
           <li class="list-unstyled "><a href=""
@@ -87,7 +89,7 @@
         <div class="padding-img-header">
           <div class=" microsoft-card d-flex justify-content-center align-items-center">
             <div class="card-body d-flex align-items-center justify-content-center p-5">
-              <div class="">
+              <div>
                 <p class="fs-xxl text-light-white fw-semibold mw-496 mb-4">MICROSOFT FOR STARTUP</p>
                 <button class="fs-xl btn-start text-dark-purple fw-semibold ">Start Now</button>
               </div>
@@ -102,7 +104,7 @@
     <div class="container d-flex flex-column align-items-center justify-content-center">
       <div>
         <h2 class="fs-xl fw-semibold ff-segoe text-dark-purple pt-5">Welcome to MICROSOFT FOR STARTUP</h2>
-        <p class="fs-sm fw-normal text-black ff-segoe mx-auto mw-683">Microsoft for Startups is a globalteam dedicated
+        <p class="fs-sm fw-normal text-black ff-segoe mx-auto mw-683 text-center">Microsoft for Startups is a globalteam dedicated
           to
           helping startups successfully build
           and scale their companies. The teamsupports qualifiedstartups across fourmain pillars:</p>
@@ -112,7 +114,7 @@
           <li class="fs-sm fw-normal text-black ff-segoe">Global Sales</li>
           <li class="fs-sm fw-normal text-black ff-segoe">Corporate Readiness</li>
         </ul>
-        <p class="fs-sm fw-normal text-black ff-segoe mx-auto mw-683 pb-5">The program supports startups by providing
+        <p class="fs-sm fw-normal text-black ff-segoe mx-auto mw-683 pb-5 text-center">The program supports startups by providing
           them
           with
           Microsoft cloud credits, free access to selected Microsoft
@@ -125,56 +127,58 @@
     <div class="container custom-container pb-md-5 pb-3 mb-md-5 mb-0 ">
       <h2 class="fs-xl fw-semibold ff-segoe text-dark-purple text-center pb-md-5 pb-2">MicroSpot - Whats New?</h2>
       <div class="row justify-content-center pt-3">
-        <div data-aos="fade-right" class="col-lg-4 col-md-6 col-sm-12">
-          <p class="fs-lg fw-semibold ff-segoe text-b lack p-0 m-0">Marketplace Summit // 22.6 @Herzelia</p>
-          <img src="./assets/image/sec-tor-tusk.png" alt="sec-tor-tusk" class="w-100 pt-3">
-          <div class="d-flex align-items-end">
-            <p class="fs-sm fw-normal text-black ff-segoe p-0 m-0 pt-4">This event is a dedicated platform for ISVs
-              and Service
-              Partners to unlock the vast potential of the
-              marketplace engine to simplify sales and supercharge growth.</p>
-            <span><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
-                  fill="black" />
-              </svg>
-            </span>
+        <div class="slider-2 ">
+          <div data-aos="fade-right" class="col-lg-4 col-md-6 col-sm-12 mx-2">
+            <p class="fs-lg fw-semibold ff-segoe text-b lack p-0 m-0">Marketplace Summit // 22.6 @Herzelia</p>
+            <img src="./assets/image/sec-tor-tusk.png" alt="sec-tor-tusk" class="w-100 pt-3">
+            <div class="d-flex align-items-end">
+              <p class="fs-sm fw-normal text-black ff-segoe p-0 m-0 pt-4">This event is a dedicated platform for ISVs
+                and Service
+                Partners to unlock the vast potential of the
+                marketplace engine to simplify sales and supercharge growth.</p>
+              <span><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
+                    fill="black" />
+                </svg>
+              </span>
+            </div>
+            <hr class="line-1 text-black">
           </div>
-          <hr class="line-1 text-black">
-        </div>
-        <div data-aos="fade-right" class="col-lg-4 col-md-6 col-sm-12 ">
-          <p class="fs-lg fw-semibold ff-segoe text-black p-0 m-0">All Founders // 25.6 @TLV</p>
-          <img src="./assets/image/sec-june.png" alt="sec-tor-tusk" class="w-100 pt-3">
-          <div class="d-flex align-items-end ">
-            <p class="fs-sm fw-normal text-black ff-segoe p-0 m-0 pt-4">This event is a dedicated platform for ISVs
-              and Service
-              Partners to unlock the vast potential of the
-              marketplace engine to simplify sales and supercharge growth.</p>
-            <span><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
-                  fill="black" />
-              </svg>
-            </span>
+          <div data-aos="fade-right" class="col-lg-4 col-md-6 col-sm-12 mx-2 ">
+            <p class="fs-lg fw-semibold ff-segoe text-black p-0 m-0">All Founders // 25.6 @TLV</p>
+            <img src="./assets/image/sec-june.png" alt="sec-tor-tusk" class="w-100 pt-3">
+            <div class="d-flex align-items-end ">
+              <p class="fs-sm fw-normal text-black ff-segoe p-0 m-0 pt-4">This event is a dedicated platform for ISVs
+                and Service
+                Partners to unlock the vast potential of the
+                marketplace engine to simplify sales and supercharge growth.</p>
+              <span><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
+                    fill="black" />
+                </svg>
+              </span>
+            </div>
+            <hr class="line-1">
           </div>
-          <hr class="line-1">
-        </div>
-        <div data-aos="fade-right" class="col-lg-4 col-md-6 col-sm-12">
-          <p class="fs-lg fw-semibold ff-segoe text-black p-0 m-0">GenAI Discovery Day // 19.6 @TLV</p>
-          <img src="./assets/image/microsoft-sec.png" alt="microsoft" class="w-100 pt-3">
-          <div class="d-flex align-items-end">
-            <p class="fs-sm fw-normal text-black ff-segoe p-0 m-0 pt-4">This event is a dedicated platform for ISVs
-              and Service
-              Partners to unlock the vast potential of the
-              marketplace engine to simplify sales and supercharge growth.</p>
-            <span><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
-                  fill="black" />
-              </svg>
-            </span>
+          <div data-aos="fade-right" class="col-lg-4 col-md-6 col-sm-12 mx-2">
+            <p class="fs-lg fw-semibold ff-segoe text-black p-0 m-0">GenAI Discovery Day // 19.6 @TLV</p>
+            <img src="./assets/image/microsoft-sec.png" alt="microsoft" class="w-100 pt-3">
+            <div class="d-flex align-items-end">
+              <p class="fs-sm fw-normal text-black ff-segoe p-0 m-0 pt-4">This event is a dedicated platform for ISVs
+                and Service
+                Partners to unlock the vast potential of the
+                marketplace engine to simplify sales and supercharge growth.</p>
+              <span><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
+                    fill="black" />
+                </svg>
+              </span>
+            </div>
+            <hr class="line-1 ">
           </div>
-          <hr class="line-1 ">
         </div>
       </div>
       <img class="elipes d-none d-lg-block" src="./assets/image/elipes.png" alt="elipes">
@@ -291,7 +295,7 @@
   <!-- ‘Microsoft for Startups’ Programs -->
   <section class="bg-grey py-md-5 py-2 overflow-hidden ">
     <div class="container">
-      <h2 class="mb-0 fs-xl lh-normal fw-semibold dark-purple pb-4 text-center ">‘Microsoft for Startups’ Programs</h2>
+      <h2 class="mb-0 fs-xl lh-normal fw-semibold dark-purple pb-4 text-center">‘Microsoft for Startups’ Programs</h2>
       <div class="slider-1 d-flex align-items-center justify-content-center">
         <div class="slider-card">
           <div class="row align-items-center justify-content-center ">
@@ -629,23 +633,25 @@
         together, collaborating in designing meaningful content experiences or by joiningMfS on-going programs and
         sharing their implicit knowledge, network connections, and expertise with our Founders Hub community.</p>
       <div class="row mw-1048">
-        <div  class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
-          <img src="./assets/image/img-female.png" alt="img-female" class="w-100 f-img-sec pt-4">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
-          <img src="./assets/image/img-laptop.png" alt="img-laptop" class="w-100 f-img-sec pt-4">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
-          <img src="./assets/image/img-boy.png" alt="img-boy" class="w-100 pt-4 f-img-sec">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden ">
-          <img src="./assets/image/img-men.png" alt="img-men" class="w-100 pt-4 f-img-sec">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
-          <img src="./assets/image/two-girl.png" alt="two-girl" class="w-100 pt-4 f-img-sec">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
-          <img src="./assets/image/two-men.png" alt="two-men" class="w-100 pt-4 f-img-sec">
+        <div class="slider-3">
+          <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
+            <img src="./assets/image/img-female.png" alt="img-female" class="w-100 f-img-sec pt-4">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
+            <img src="./assets/image/img-laptop.png" alt="img-laptop" class="w-100 f-img-sec pt-4">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
+            <img src="./assets/image/img-boy.png" alt="img-boy" class="w-100 pt-4 f-img-sec">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden ">
+            <img src="./assets/image/img-men.png" alt="img-men" class="w-100 pt-4 f-img-sec">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
+            <img src="./assets/image/two-girl.png" alt="two-girl" class="w-100 pt-4 f-img-sec">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 overflow-hidden">
+            <img src="./assets/image/two-men.png" alt="two-men" class="w-100 pt-4 f-img-sec">
+          </div>
         </div>
       </div>
       <p class="fs-xl fw-semibold ff-segoe text-dark-purple text-center pt-lg-5 pt-2 pb-2">Take an Active Part!</p>
@@ -752,21 +758,27 @@
     <div class="container custom-container">
       <div class="row">
         <div class="col-md-8 col-12">
-          <div class="row">
+          <div class="row justify-content-center align-items-center">
             <div class="col-lg-7 col-md-12 col-12">
-              <p class="fs-xl fw-semibold ff-segoe pt-md-5 md-2 p-0 m-0 f-line-footer">Connect & Contact Us</p>
-              <ul class="p-0 m-0">
-                <li class="list-unstyled text-decoration-underline pt-3"><a href=""
-                    class="fs-md fw-normal ff-segoe text-light-black">Facebook page link</a></li>
-                <li class="list-unstyled text-decoration-underline pt-3"><a href=""
-                    class="fs-md fw-normal ff-segoe text-light-black">Facebook Founders Hub group link</a></li>
-                <li class="list-unstyled text-decoration-underline pt-3"><a href=""
-                    class="fs-md fw-normal ff-segoe text-light-black">Join our MFS IL Ecosystem Mailing List</a></li>
+              <p
+                class="fs-xl fw-semibold ff-segoe pt-md-5 md-2 p-0 m-0 f-line-footer d-flex flex-column align-items-center align-items-md-start justify-content-center justify-content-md-start">
+                Connect & Contact Us</p>
+              <ul
+                class="p-0 m-0 d-flex flex-column align-items-center align-items-md-start justify-content-center justify-content-md-start">
+                <li class="list-unstyled text-decoration-underline pt-3 "><a href=""
+                    class="fs-md fw-normal ff-segoe text-light-black  ">Facebook page link</a></li>
+                <li class="list-unstyled text-decoration-underline pt-3 "><a href=""
+                    class="fs-md fw-normal ff-segoe text-light-black  ">Facebook Founders Hub group link</a></li>
+                <li class="list-unstyled text-decoration-underline pt-3 "><a href=""
+                    class="fs-md fw-normal ff-segoe text-light-black  ">Join our MFS IL Ecosystem Mailing List</a></li>
               </ul>
             </div>
             <div class="col-lg-5 col-md-12 col-12">
-              <p class="fs-xl fw-semibold ff-segoe pt-5 p-0 m-0 ">Support</p>
-              <ul class="p-0 m-0">
+              <p
+                class="fs-xl fw-semibold ff-segoe pt-5 p-0 m-0 d-flex flex-column align-items-center align-items-md-start justify-content-center justify-content-md-start">
+                Support</p>
+              <ul
+                class="p-0 m-0 d-flex flex-column align-items-center align-items-md-start justify-content-center justify-content-md-start">
                 <li class="list-unstyled text-decoration-underline pt-3"><a href=""
                     class="fs-md fw-normal ff-segoe text-light-black">Blog</a></li>
                 <li class="list-unstyled text-decoration-underline pt-3"><a href=""
@@ -777,7 +789,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-12 d-flex align-items-end justify-content-sm-end pt-4 pt-md-0 gap-2">
+        <div
+          class="col-md-4 col-12 d-flex align-items-md-end justify-content-md-end justify-content-center align-items-center pt-4 pt-md-0 gap-2">
           <a href="https://www.facebook.com/" target="_blank" class="icon-design"><svg width="36" height="36"
               viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -816,9 +829,10 @@
     </div>
   </footer>
   <div class="bg-light-white pb-5"></div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
     integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -829,7 +843,7 @@
   <script src="./assets/js/add.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-     AOS.init({
+    AOS.init({
       duration: 3000,
       once: true,
     });
@@ -843,11 +857,11 @@
   </script>
   <script>
     $('.slider-1').slick({
-
+      dots: false,
       infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
       responsive: [
         {
           breakpoint: 1024,
@@ -882,7 +896,83 @@
         }
       ]
     });
+    $('.slider-2').slick({
+      dots: false,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            arrows: false,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            autoplay: true,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            autoplay: true,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    $('.slider-3').slick({
+      dots: false,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 6,
+      slidesToScroll: 6,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            arrows: false,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            autoplay: true,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            autoplay: true,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+
   </script>
+
 </body>
 
 </html>
